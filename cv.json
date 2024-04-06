@@ -15,46 +15,48 @@
       "countryCode": "AR",
       "postalCode": "5300"
     },
-    "profiles": [{
+    "profiles": [
+      {
         "network": "X",
         "username": "znXander",
         "url": "https://X.com/znXander"
-      }, {
+      },
+      {
         "network": "LinkedIn",
         "username": "gabrielhumerez",
         "url": "https://linkedin.com/gabrielhumerez"
-      }, {
+      },
+      {
         "network": "GitHub",
         "username": "soyXander",
         "url": "https://github.com/soyXander"
       }
     ]
   },
-  "work": [{
+  "work": [
+    {
       "name": "Company",
       "position": "President",
       "url": "https://company.com",
       "startDate": "2013-01-01",
       "endDate": "2014-01-01",
       "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
+      "highlights": ["Started the company"]
     }
   ],
-  "volunteer": [{
+  "volunteer": [
+    {
       "organization": "",
       "position": "",
       "url": "",
       "startDate": "",
       "endDate": "",
       "summary": "",
-      "highlights": [
-        ""
-      ]
+      "highlights": [""]
     }
   ],
-  "education": [{
+  "education": [
+    {
       "institution": "Argentina Programa",
       "url": "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa",
       "area": "Web Full Stack Junior",
@@ -63,7 +65,8 @@
       "endDate": "2022-07-31",
       "score": "8.81",
       "courses": []
-    }, {
+    },
+    {
       "institution": "ONE - Oracle Next Education",
       "url": "https://www.oracle.com/ar/education/oracle-next-education/",
       "area": "ONE - Oracle Next Education",
@@ -72,7 +75,8 @@
       "endDate": " 2022-12-02",
       "score": "",
       "courses": []
-    }, {
+    },
+    {
       "institution": "UTN Universidad Tecnologica Nacional - La Rioja",
       "url": "http://www.frlr.utn.edu.ar/",
       "area": "Técnico Universitario en Programación",
@@ -83,21 +87,24 @@
       "courses": []
     }
   ],
-  "awards": [{
+  "awards": [
+    {
       "title": "",
       "date": "",
       "awarder": "",
       "summary": ""
     }
   ],
-  "certificates": [{
+  "certificates": [
+    {
       "name": "",
       "date": "",
       "issuer": "",
       "url": ""
     }
   ],
-  "publications": [{
+  "publications": [
+    {
       "name": "",
       "publisher": "",
       "releaseDate": "",
@@ -105,17 +112,15 @@
       "summary": ""
     }
   ],
-  "skills": [{
+  "skills": [
+    {
       "name": "Web Development",
       "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "keywords": ["HTML", "CSS", "JavaScript"]
     }
   ],
-  "languages": [{
+  "languages": [
+    {
       "language": "Español",
       "fluency": "Nativo"
     },
@@ -124,26 +129,25 @@
       "fluency": "Medio"
     }
   ],
-  "interests": [{
+  "interests": [
+    {
       "name": "",
-      "keywords": [
-        ""
-      ]
+      "keywords": [""]
     }
   ],
-  "references": [{
+  "references": [
+    {
       "name": "",
       "reference": ""
     }
   ],
-  "projects": [{
+  "projects": [
+    {
       "name": "Project",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
+      "highlights": ["Won award at AIHacks 2016"],
       "url": "https://project.com/"
     }
   ]
