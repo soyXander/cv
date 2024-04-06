@@ -1,12 +1,13 @@
 ---
-import Layout from "@/layouts/Layout.astro";
-import Hero from "@/components/sections/Hero.astro";
+import Layout from "@/layouts/Layout.astro"
+import Hero from "@/components/sections/Hero.astro"
+import AboutMe from "@/components/sections/AboutMe.astro"
 ---
 
 <Layout title="Portfolio">
   <main
-    class="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16"
-  >
+    class="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
     <Hero />
+    <AboutMe title="Sobre mi" />
   </main>
 </Layout>
