@@ -1,0 +1,78 @@
+---
+import { skills } from "@cv"
+import type { Icon } from "@/types"
+
+import Section from "@/components/Section.astro"
+// import AWSIcon from "@/icons/AWS.astro"
+import AngularIcon from "@/icons/Angular.astro"
+import CSS3Icon from "@/icons/CSS3.astro"
+// import CloudflareIcon from "@/icons/Cloudflare.astro"
+import ExpressIcon from "@/icons/Express.astro"
+import FirebaseIcon from "@/icons/Firebase.astro"
+import GitIcon from "@/icons/Git.astro"
+import GitHubIcon from "@/icons/GitHub.astro"
+import HTML5Icon from "@/icons/HTML5.astro"
+import JavaIcon from "@/icons/Java.astro"
+import JavaScriptIcon from "@/icons/JavaScript.astro"
+// import MongoDBIcon from "@/icons/MongoDB.astro"
+import MySQLIcon from "@/icons/MySQL.astro"
+import NodeJSIcon from "@/icons/NodeJS.astro"
+// import PostgreSQLIcon from "@/icons/PostgreSQL.astro"
+import PyQtIcon from "@/icons/PyQt.astro"
+import PythonIcon from "@/icons/Python.astro"
+import ReactIcon from "@/icons/React.astro"
+import SpringIcon from "@/icons/Spring.astro"
+import TailwindCSSIcon from "@/icons/TailwindCSS.astro"
+import TypeScriptIcon from "@/icons/TypeScript.astro"
+// import VercelIcon from "@/icons/Vercel.astro"
+import WooCommerceIcon from "@/icons/WooCommerce.astro"
+import WordPressIcon from "@/icons/WordPress.astro"
+import AstroIcon from "@/icons/Astro.astro"
+
+const ICONS: Icon = {
+  AngularIcon,
+  AstroIcon,
+  // AWSIcon,
+  // CloudflareIcon,
+  CSS3Icon,
+  ExpressIcon,
+  FirebaseIcon,
+  GitIcon,
+  GitHubIcon,
+  HTML5Icon,
+  JavaIcon,
+  JavaScriptIcon,
+  // MongoDBIcon,
+  MySQLIcon,
+  NodeJSIcon,
+  // PostgreSQLIcon,
+  PyQtIcon,
+  PythonIcon,
+  ReactIcon,
+  SpringIcon,
+  TailwindCSSIcon,
+  TypeScriptIcon,
+  // VercelIcon,
+  WooCommerceIcon,
+  WordPressIcon,
+}
+---
+
+<Section title="Habilidades">
+  <div class="flex flex-wrap gap-2">
+    {
+      skills.map(({ name }) => {
+        const Icon = ICONS[name + "Icon"]
+
+        return (
+          <span class="inline-flex gap-x-1">
+            <div class="flex cursor-default flex-row items-center gap-x-1 rounded-md border border-transparent bg-primary px-1.5 py-1.5 font-mono text-xs font-semibold text-white transition-colors hover:bg-secondary">
+              {Icon && <Icon />}
+              <span>{name}</span>
+            </div>
+          </span>
+        )
+      })
+    }
+  </div>
+</Section>
