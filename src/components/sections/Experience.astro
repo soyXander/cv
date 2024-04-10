@@ -6,61 +6,46 @@ import { work } from "@cv"
 
 <Section title="Experiencias">
   {
-    work.map(
-      ({
-        name,
-        position,
-        url,
-        badge,
-        startDate,
-        endDate,
-        summary,
-        highlights,
-      }) => {
-        const formatStartDate = () => {
-          const date = new Date(startDate)
-          return `${date.getMonth() + 1}/${date.getFullYear()}`
-        }
-        const formatEndDate = () => {
-          if (!endDate) {
-            return "Actual"
-          }
-          const date = new Date(endDate)
-          return `${date.getMonth() + 1}/${date.getFullYear()}`
-        }
-
-        return (
-          <div class="pb-4">
-            <div class="flex justify-between">
-              <h3>
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-base font-bold hover:underline">
-                  {name}
-                </a>
-                {badge && (
-                  <span class="inline-flex gap-x-1">
-                    <div class="bg-muted pointer-events-none rounded-md border border-transparent px-1.5 py-0.5 font-mono text-xs font-semibold">
-                      {badge}
-                    </div>
-                  </span>
-                )}
-              </h3>
-              <h3 class="text-sm tabular-nums text-gray-500">
-                {formatStartDate} - {formatEndDate}
-              </h3>
-            </div>
-            <h4 class="text-pretty font-mono text-sm text-primary">
-              {position}
-            </h4>
-            <p class="text-pretty font-mono text-sm text-secondary">
-              {summary}
-            </p>
-          </div>
-        )
+    work.map(({ name, position, url, badge, startDate, endDate, summary }) => {
+      const formatStartDate = () => {
+        const date = new Date(startDate)
+        return `${date.getMonth() + 1}/${date.getFullYear()}`
       }
-    )
+      const formatEndDate = () => {
+        if (!endDate) {
+          return "Actual"
+        }
+        const date = new Date(endDate)
+        return `${date.getMonth() + 1}/${date.getFullYear()}`
+      }
+
+      return (
+        <div class="pb-4">
+          <div class="flex justify-between">
+            <h3>
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-base font-bold hover:underline">
+                {name}
+              </a>
+              {badge && (
+                <span class="inline-flex gap-x-1">
+                  <div class="pointer-events-none rounded-md border border-transparent bg-muted px-1.5 py-0.5 font-mono text-xs font-semibold">
+                    {badge}
+                  </div>
+                </span>
+              )}
+            </h3>
+            <h3 class="text-sm tabular-nums text-gray-500">
+              {formatStartDate} - {formatEndDate}
+            </h3>
+          </div>
+          <h4 class="text-pretty font-mono text-sm text-primary">{position}</h4>
+          <p class="text-pretty font-mono text-sm text-secondary">{summary}</p>
+        </div>
+      )
+    })
   }
 </Section>
