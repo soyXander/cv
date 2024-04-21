@@ -6,7 +6,7 @@
     "email": "zn.xander@gmail.com",
     "phone": "(+54) 3804-818488",
     "url": "https://gabrielhumerez.dev",
-    "summary": "Como entusiasta de las tecnologías, inicié mi trayectoria programando en Java como una actividad de interés personal. Posteriormente, amplié mis habilidades profesionales desempeñándome como Webmaster, desarrollando proyectos en WordPress desde el año 2015. A partir del 2021, he enfocado mis esfuerzos en especializarme en el desarrollo web FullStack. Actualmente, me encuentro culminando el último año de la carrera de Técnico Universitario en Programación en la UTN La Rioja.",
+    "summary": "Inicié mi trayectoria programando en Java como una actividad de interés personal. Posteriormente, amplié mis habilidades profesionales desempeñándome como Webmaster, desarrollando proyectos en WordPress desde el año 2015. A partir del 2021, he enfocado mis esfuerzos en especializarme en el desarrollo web FullStack. Actualmente, me encuentro culminando el último año de la carrera de Técnico Universitario en Programación en la UTN La Rioja.",
     "location": {
       "address": "",
       "city": "La Rioja",
@@ -35,34 +35,34 @@
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "badge": "Insignia",
-      "startDate": "2023-01-01",
+      "name": "Organización y Desarrollo",
+      "position": "Desarrollador Web WordPress",
+      "url": "https://organizacionydesarrollo.com/",
+      "badge": "",
+      "startDate": "2023-05-02",
+      "endDate": "2024-04-30",
+      "summary": "Actualización y mantenimiento de sitios web en WordPress, modificaciones de plugins y temas a medida, optimización de rendimiento y SEO, implementación de estrategias de marketing digital y más.",
+      "highlights": [""]
+    },
+    {
+      "name": "Webmaster WordPress Freelance",
+      "position": "",
+      "url": "",
+      "badge": "",
+      "startDate": "2015-12-02",
       "endDate": "",
-      "summary": "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-      "highlights": ["Started the company"]
+      "summary": "Desarrollo de sitios web en WordPress, mantenimiento y actualización de sitios web, optimización de rendimiento y SEO, implementación de estrategias de marketing digital y más.",
+      "highlights": [""]
     },
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "badge": "Insignia",
-      "startDate": "2021-01-01",
-      "endDate": "2023-01-01",
-      "summary": "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-      "highlights": ["Started the company"]
-    },
-    {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "badge": "Insignia",
-      "startDate": "2016-01-01",
-      "endDate": "2021-01-01",
-      "summary": "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-      "highlights": ["Started the company"]
+      "name": "Clases Particulares",
+      "position": "",
+      "url": "",
+      "badge": "",
+      "startDate": "2023-06-02",
+      "endDate": "",
+      "summary": "Dictado de clases particulares de programación en Python, JavaScript, HTML, CSS. Preparación de alumnos para rendir exámenes y trabajos prácticos.",
+      "highlights": [""]
     }
   ],
   "volunteer": [
@@ -78,12 +78,12 @@
   ],
   "education": [
     {
-      "institution": "Argentina Programa",
-      "url": "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa",
-      "area": "Web Full Stack Junior",
-      "studyType": "Programa de capacitación",
-      "startDate": "2021-08-15",
-      "endDate": "2022-07-31",
+      "institution": "UTN Universidad Tecnologica Nacional - La Rioja",
+      "career": "Técnico Universitario en Programación",
+      "url": "http://www.frlr.utn.edu.ar/",
+      "studyType": "Terciario",
+      "startDate": "2023-02-20",
+      "endDate": "",
       "score": "8.81",
       "courses": []
     },
@@ -95,17 +95,17 @@
       "startDate": "2022-09-01",
       "endDate": " 2022-12-02",
       "score": "",
-      "courses": []
+      "highlights": []
     },
     {
-      "institution": "UTN Universidad Tecnologica Nacional - La Rioja",
-      "url": "http://www.frlr.utn.edu.ar/",
-      "area": "Técnico Universitario en Programación",
-      "studyType": "Terciario",
-      "startDate": "2023-02-20",
-      "endDate": "",
+      "institution": "Argentina Programa",
+      "career": "Desarrollador Web Full Stack Junior",
+      "url": "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa",
+      "studyType": "Programa de capacitación",
+      "startDate": "2021-08-15",
+      "endDate": "2022-07-31",
       "score": "8.81",
-      "courses": []
+      "highlights": []
     }
   ],
   "awards": [
@@ -135,9 +135,62 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "name": "JavaScript",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": [""]
+    },{
+      "name": "CSS3",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "TailwindCSS",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": [""]
+    },{
+      "name": "WooCommerce",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "React",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "Astro",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "Angular",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "NodeJS",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "PyQt",
+      "level": "",
+      "keywords": [""]
     }
   ],
   "languages": [
@@ -164,12 +217,94 @@
   ],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/"
+      "name": "Moises Jabif",
+      "startDate": "",
+      "endDate": "",
+      "isActive": true,
+      "description": "Plataforma de venta de entrenamientos y asesoramiento fitness online",
+      "highlights": ["Encargado técnico", "SEO", "Marketing Digital", "Google Analytics"],
+      "url": "https://moisesjabif.com"
+    },
+    {
+      "name": "Tu Entradita",
+      "startDate": "",
+      "endDate": "",
+      "isActive": false,
+      "description": "Sistema de venta de entradas online para eventos",
+      "highlights": ["Ecommerce", "Mantenimiento"],
+      "url": "https://tuentradita.com.ar"
+    },
+    {
+      "name": "Luani",
+      "startDate": "",
+      "endDate": "",
+      "isActive": true,
+      "description": "Ecommerce de indumentaria femenina, con presencia en Argentina.",
+      "highlights": ["Ecommerce", "SEO", "Marketing Digital", "Google Analytics"],
+      "url": "https://luani.com.ar/"
+    },
+    {
+      "name": "El Informador LR",
+      "startDate": "",
+      "endDate": "",
+      "isActive": true,
+      "description": "Portal de noticias en La Rioja, Argentina.",
+      "highlights": ["Anuncios", "Mantenimiento"],
+      "url": "https://elinformadorlr.com.ar/"
+    },
+    {
+      "name": "Cinema 3D La Rioja",
+      "startDate": "",
+      "endDate": "",
+      "isActive": true,
+      "description": "Rediseño e implementación de venta de entradas online.",
+      "highlights": ["Entradas online", "Rediseño", "Mantenimiento"],
+      "url": "https://cinema3dlarioja.com/"
+    },
+    {
+      "name": "L2 Viggo",
+      "startDate": "",
+      "endDate": "",
+      "isActive": false,
+      "description": "Comunidad privada de Lineage 2",
+      "highlights": ["Servidor privado", "Sistema de donaciones"],
+      "url": "https://l2viggo.com"
+    },
+    {
+      "name": "Casa Grande Hotel",
+      "startDate": "",
+      "endDate": "",
+      "isActive": true,
+      "description": "Web del Hotel Casa Grande ubicado en Chilecito, La Rioja, Argentina.",
+      "highlights": ["Sistema de Booking", "Mantenimiento"],
+      "url": "https://casagrandehotel.com.ar"
+    },
+    {
+      "name": "Gosén - Cabañas",
+      "startDate": "",
+      "endDate": "",
+      "isActive": true,
+      "description": "Web de las cabañas Gosén ubicadas en Sanagasta y la Capital de La Rioja, Argentina.",
+      "highlights": ["Sistema de Booking", "Mantenimiento"],
+      "url": "https://gosensrl.com.ar"
+    },
+    {
+      "name": "Complejo Educativo",
+      "startDate": "",
+      "endDate": "",
+      "isActive": true,
+      "description": "Portal informativo sobre los cursos y carreras que se dictan.",
+      "highlights": ["Sistema de administración", "Mantenimiento"],
+      "url": "https://complejoeducativo.com"
+    },
+    {
+      "name": "Una Dosis Diaria",
+      "startDate": "",
+      "endDate": "",
+      "isActive": false,
+      "description": "Portal de noticias de La Rioja, Argentina.",
+      "highlights": ["Generación de noticias", "SEO", "Google Analytics"],
+      "url": "https://unadosisdiaria.com.ar"
     }
   ]
 }
