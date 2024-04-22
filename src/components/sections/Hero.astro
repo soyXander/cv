@@ -9,7 +9,7 @@ import type { Icon } from "@/types"
 import { basics } from "@cv"
 
 const { name, label, email, phone, location, profiles } = basics
-const { region, country } = location
+const { region, country, map } = location
 
 const SOCIAL_ICONS: Icon = {
   GitHubIcon,
@@ -27,7 +27,7 @@ const SOCIAL_ICONS: Icon = {
     </p>
     <a
       class="inline-flex max-w-md items-center text-pretty font-mono text-xs text-secondary hover:underline"
-      href="http://google.com"
+      href={map}
       target="_blank"
       rel="noopener noreferrer">
       <WorldIcon />
