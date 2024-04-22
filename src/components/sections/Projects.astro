@@ -4,45 +4,35 @@ import Section from "@/components/Section.astro"
 import { projects } from "@cv"
 ---
 
-<Section title="Projects">
+<Section title="Proyectos">
   <div class="grid grid-cols-1 gap-1 sm:grid-cols-2 md:grid-cols-3">
     {
-      projects.map(
-        ({
-          name,
-          startDate,
-          endDate,
-          isActive,
-          description,
-          highlights,
-          url,
-        }) => {
-          return (
-            <article class="rounded border border-muted p-1.5 transition hover:border-secondary">
-              <h3 class="font-semibold">
-                <a
-                  class="hover:underline"
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  {name}
-                  {isActive && (
-                    <span class="text-bold size-5 text-green-600">•</span>
-                  )}
-                </a>
-              </h3>
-              <p class="pb-4 font-mono text-xs text-secondary">{description}</p>
-              <footer class="mt-2 flex flex-wrap gap-1 gap-x-1">
-                {highlights.map((highlight) => (
-                  <div class="flex cursor-default flex-row items-center rounded-md border border-transparent bg-primary p-1 font-mono text-xs font-semibold text-white transition-colors hover:bg-secondary">
-                    <span>{highlight}</span>
-                  </div>
-                ))}
-              </footer>
-            </article>
-          )
-        }
-      )
+      projects.map(({ name, isActive, description, highlights, url }) => {
+        return (
+          <article class="rounded border border-muted p-1.5 transition hover:border-secondary">
+            <h3 class="font-semibold">
+              <a
+                class="hover:underline"
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer">
+                {name}
+                {isActive && (
+                  <span class="text-bold size-5 text-green-600">•</span>
+                )}
+              </a>
+            </h3>
+            <p class="pb-4 font-mono text-xs text-secondary">{description}</p>
+            <footer class="mt-2 flex flex-wrap gap-1 gap-x-1">
+              {highlights.map((highlight) => (
+                <div class="flex cursor-default flex-row items-center rounded-md border border-transparent bg-primary p-1 font-mono text-xs font-semibold text-white transition-colors hover:bg-secondary">
+                  <span>{highlight}</span>
+                </div>
+              ))}
+            </footer>
+          </article>
+        )
+      })
     }
   </div>
 </Section>
