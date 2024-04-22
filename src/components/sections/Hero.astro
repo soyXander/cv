@@ -1,17 +1,20 @@
 ---
 import GitHubIcon from "@/icons/GitHub.astro"
 import LinkedInIcon from "@/icons/LinkedIn.astro"
-import World from "@/icons/World.astro"
+import MailIcon from "@/icons/Mail.astro"
+import PhoneIcon from "@/icons/Phone.astro"
+import WorldIcon from "@/icons/World.astro"
 import XIcon from "@/icons/X.astro"
 import type { Icon } from "@/types"
 import { basics } from "@cv"
 
-const { name, label, location, profiles } = basics
-const { city, region, country } = location
+const { name, label, email, phone, location, profiles } = basics
+const { region, country } = location
 
 const SOCIAL_ICONS: Icon = {
   GitHubIcon,
   LinkedInIcon,
+  MailIcon,
   XIcon,
 }
 ---
@@ -27,11 +30,27 @@ const SOCIAL_ICONS: Icon = {
       href="http://google.com"
       target="_blank"
       rel="noopener noreferrer">
-      <World />
+      <WorldIcon />
       {region}, {country}
     </a>
     <footer
       class="text-muted-foreground flex gap-x-1 pt-1 font-mono text-sm print:hidden">
+      <a
+        class="inline-flex size-8 items-center justify-center rounded-md border text-sm text-secondary transition-colors hover:bg-gray-100 hover:text-primary"
+        href={`tel:${phone}`}
+        title={`Llamar a ${name}`}
+        target="_blank"
+        rel="noopener noreferrer">
+        <PhoneIcon />
+      </a>
+      <a
+        class="inline-flex size-8 items-center justify-center rounded-md border text-sm text-secondary transition-colors hover:bg-gray-100 hover:text-primary"
+        href={`mailto:${email}`}
+        title={`Enviar un correo a ${name}`}
+        target="_blank"
+        rel="noopener noreferrer">
+        <MailIcon />
+      </a>
       {
         profiles.map(({ network, url, username }) => {
           const Icon = SOCIAL_ICONS[network + "Icon"]
