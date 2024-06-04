@@ -25,7 +25,7 @@ import { projects } from "@cv"
             <p class="pb-4 font-mono text-xs text-secondary">{description}</p>
             <footer class="mt-2 flex flex-wrap gap-1 gap-x-1">
               {highlights.map((highlight) => (
-                <div class="flex cursor-default flex-row items-center rounded-md border border-transparent bg-primary p-1 font-mono text-xs font-semibold text-white transition-colors hover:bg-secondary">
+                <div class="flex cursor-default flex-row items-center rounded-md border border-transparent bg-primary p-1 font-mono text-xs font-semibold text-white transition-colors hover:bg-secondary print:border-secondary print:text-secondary">
                   <span>{highlight}</span>
                 </div>
               ))}
