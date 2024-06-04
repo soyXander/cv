@@ -33,6 +33,7 @@ const SOCIAL_ICONS: Icon = {
       <WorldIcon />
       {region}, {country}
     </a>
+
     <footer
       class="text-muted-foreground flex gap-x-1 pt-1 font-mono text-sm print:hidden">
       <a
@@ -63,6 +64,30 @@ const SOCIAL_ICONS: Icon = {
               target="_blank"
               rel="noopener noreferrer">
               <Icon />
+            </a>
+          )
+        })
+      }
+    </footer>
+
+    <footer
+      class="text-muted-foreground hidden flex-col gap-x-1 pt-1 font-mono text-sm print:flex">
+      <a class="inline-flex items-center gap-x-1 text-sm text-secondary">
+        <PhoneIcon />
+        {phone}
+      </a>
+      <a class="inline-flex items-center gap-x-1 text-sm text-secondary">
+        <MailIcon />
+        {email}
+      </a>
+      {
+        profiles.map(({ network, url }) => {
+          const Icon = SOCIAL_ICONS[network + "Icon"]
+
+          return (
+            <a class="inline-flex items-center gap-x-1 text-sm text-secondary">
+              <Icon />
+              {url}
             </a>
           )
         })
