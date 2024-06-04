@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Gabriel Humerez Romero",
-    "label": "Desarrollador FullStack especializado en tecnologías web. Curzando el ultimo año de la Tecnicatura en la UTN.",
+    "label": "Desarrollador Full Stack especializado en tecnologías web. Curzando el ultimo año de la Tecnicatura en la UTN.",
     "image": "https://avatars.githubusercontent.com/u/10144216?v=4",
     "email": "zn.xander@gmail.com",
     "phone": "(+54) 3804-818488",
     "url": "https://gabrielhumerez.dev",
-    "summary": "Inicié mi trayectoria programando en Java como una actividad de interés personal. Posteriormente, amplié mis habilidades desempeñándome profesionalmente como Webmaster, desarrollando proyectos en WordPress desde el año 2015. A partir del 2021, he enfocado mis esfuerzos en especializarme en el desarrollo web FullStack. Actualmente, me encuentro culminando el último año de la carrera de Técnico Universitario en Programación en la UTN La Rioja.",
+    "summary": "Inicié mi trayectoria programando en Java como una actividad de interés personal. Posteriormente, amplié mis habilidades desempeñándome profesionalmente como Webmaster, desarrollando proyectos en WordPress desde el año 2015. A partir del 2021, he enfocado mis esfuerzos en especializarme en el desarrollo web Full Stack. Actualmente, me encuentro culminando el último año de la carrera de Técnico Universitario en Programación en la UTN La Rioja.",
     "location": {
       "address": "",
       "city": "La Rioja",
@@ -17,11 +17,6 @@
       "map": "https://maps.app.goo.gl/E1afCVDdQPwjETru5"
     },
     "profiles": [
-      {
-        "network": "X",
-        "username": "znXander",
-        "url": "https://X.com/znXander"
-      },
       {
         "network": "LinkedIn",
         "username": "gabrielhumerez",
@@ -42,17 +37,17 @@
       "badge": "",
       "startDate": "2023-05-02",
       "endDate": "2024-04-30",
-      "summary": "Actualización y mantenimiento de sitios web en WordPress, modificaciones de plugins y temas a medida, optimización de rendimiento y SEO, implementación de estrategias de marketing digital y más.",
+      "summary": "Actualización y mantenimiento de sitios web en WordPress, incluyendo la modificación de plugins y temas a medida. Optimización del rendimiento para mejorar la velocidad de carga. Participación en la implementación de estrategias de marketing digital y una variedad de servicios adicionales adaptados a cada proyecto.",
       "highlights": [""]
     },
     {
-      "name": "Webmaster WordPress Freelance",
+      "name": "Freelance WordPress Webmaster",
       "position": "",
       "url": "",
       "badge": "",
       "startDate": "2015-12-02",
       "endDate": "",
-      "summary": "Desarrollo de sitios web en WordPress, mantenimiento y actualización de sitios web, optimización de rendimiento y SEO, implementación de estrategias de marketing digital y más.",
+      "summary": "Desarrollo de sitios web en WordPress. Mantenimiento y actualización constante de sitios web, asegurando su buen funcionamiento y seguridad. Optimización del rendimiento y SEO para mejorar la velocidad de carga y el posicionamiento en motores de búsqueda. Implementación de estrategias de marketing digital efectivas para aumentar la visibilidad y atraer más clientes potenciales.",
       "highlights": [""]
     },
     {
@@ -263,13 +258,13 @@
       "url": "https://cinema3dlarioja.com/"
     },
     {
-      "name": "L2 Viggo",
+      "name": "Edelvez Project",
       "startDate": "",
       "endDate": "",
       "isActive": false,
       "description": "Comunidad privada de Lineage 2",
-      "highlights": ["Servidor privado", "Sistema de donaciones"],
-      "url": "https://l2viggo.com"
+      "highlights": ["Servidor privado", "Sistema de gestion de cuenta"],
+      "url": "#"
     },
     {
       "name": "Casa Grande Hotel",
