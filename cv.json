@@ -213,6 +213,15 @@
   ],
   "projects": [
     {
+      "name": "Portfolio Personal",
+      "startDate": "",
+      "endDate": "",
+      "isActive": true,
+      "description": "Desarrollo en el framework Astro con TailwindCSS sobre mi portfolio para mostrar mis trabajos",
+      "highlights": ["Astro", "TailwindCSS", "Desarrollo Web"],
+      "url": "#"
+    },
+    {
       "name": "Moises Jabif",
       "startDate": "",
       "endDate": "",
@@ -249,21 +258,21 @@
       "url": "https://elinformadorlr.com.ar/"
     },
     {
-      "name": "Cinema 3D La Rioja",
+      "name": "Cinema 3D La Rioja (En curso)",
       "startDate": "",
       "endDate": "",
       "isActive": true,
-      "description": "Rediseño e implementación de venta de entradas online.",
+      "description": "Rediseño e implementación de venta de entradas online en curso.",
       "highlights": ["Entradas online", "Rediseño", "Mantenimiento"],
       "url": "https://cinema3dlarioja.com/"
     },
     {
-      "name": "Edelvez Project",
+      "name": "L2 Raz",
       "startDate": "",
       "endDate": "",
-      "isActive": false,
+      "isActive": true,
       "description": "Comunidad privada de Lineage 2",
-      "highlights": ["Servidor privado", "Sistema de gestion de cuenta"],
+      "highlights": ["Servidor privado", "Sistema de gestion de cuenta", "Launcher"],
       "url": "#"
     },
     {
