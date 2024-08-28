@@ -224,16 +224,7 @@
       "isActive": true,
       "description": "Actualmente en desarrollo en el framework Astro con TailwindCSS",
       "highlights": ["React", "TailwindCSS", "Desarrollo Web"],
-      "url": "#"
-    },
-    {
-      "name": "SaaS - Sistema de Turnos",
-      "startDate": "",
-      "endDate": "",
-      "isActive": true,
-      "description": "En etapas de planificación del proyecto",
-      "highlights": ["React", "TailwindCSS", "NodeJS", "Express", "Desarrollo Web", "SaaS"],
-      "url": "#"
+      "url": "https://soyxander.github.io/"
     },
     {
       "name": "Moises Jabif",
