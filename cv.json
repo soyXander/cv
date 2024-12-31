@@ -1,20 +1,20 @@
 {
   "basics": {
     "name": "Gabriel Humerez Romero",
-    "label": "Desarrollador Full Stack especializado en tecnologías web. Curzando el ultimo año de la Tecnicatura en la UTN.",
+    "label": "Desarrollador Web Full Stack y Webmaster WordPress",
     "image": "https://avatars.githubusercontent.com/u/10144216?v=4",
     "email": "zn.xander@gmail.com",
     "phone": "(+54) 3804-818488",
     "url": "https://gabrielhumerez.dev",
-    "summary": "Inicié mi trayectoria programando en Java como una actividad de interés personal. Posteriormente, amplié mis habilidades desempeñándome profesionalmente como Webmaster, desarrollando proyectos en WordPress desde el año 2015. A partir del 2021, he enfocado mis esfuerzos en especializarme en el desarrollo web Full Stack. Actualmente, me encuentro culminando el último año de la carrera de Técnico Universitario en Programación en la UTN La Rioja.",
+    "summary": "Inicié mi trayectoria programando en Java como una actividad de interés personal. Posteriormente durante la pandemia, amplié mis habilidades desempeñándome como Webmaster en proyectos WordPress y he enfocado mis esfuerzos en especializarme en el desarrollo web Full Stack. Actualmente, me encuentro finalizando la carrera de Técnico Universitario en Programación en la UTN La Rioja (4 finales pendientes).",
     "location": {
       "address": "",
-      "city": "La Rioja",
-      "region": "La Rioja",
+      "city": "Córdoba",
+      "region": "Córdoba",
       "country": "Argentina",
       "countryCode": "AR",
-      "postalCode": "5300",
-      "map": "https://maps.app.goo.gl/E1afCVDdQPwjETru5"
+      "postalCode": "5000",
+      "map": "https://maps.app.goo.gl/UUic7MuNNcP19Mm99"
     },
     "profiles": [
       {
@@ -37,17 +37,17 @@
       "badge": "",
       "startDate": "2023-05-02",
       "endDate": "2024-04-30",
-      "summary": "Actualización y mantenimiento de sitios web en WordPress, incluyendo la modificación de plugins y temas a medida. Optimización del rendimiento para mejorar la velocidad de carga. Participación en la implementación de estrategias de marketing digital y una variedad de servicios adicionales adaptados a cada proyecto.",
+      "summary": "Actualización y mantenimiento de sitios web en WordPress. Optimización del rendimiento para mejorar la velocidad de carga. Participación en la implementación de estrategias de marketing digital y una variedad de servicios adicionales adaptados a cada proyecto.",
       "highlights": [""]
     },
     {
-      "name": "Freelance WordPress Webmaster",
+      "name": "Diseño Web WordPress",
       "position": "",
       "url": "",
       "badge": "",
-      "startDate": "2015-12-02",
+      "startDate": "2021-12-02",
       "endDate": "",
-      "summary": "Desarrollo de sitios web en WordPress. Mantenimiento y actualización constante de sitios web, asegurando su buen funcionamiento y seguridad. Optimización del rendimiento y SEO para mejorar la velocidad de carga y el posicionamiento en motores de búsqueda. Implementación de estrategias de marketing digital efectivas para aumentar la visibilidad y atraer más clientes potenciales.",
+      "summary": "Diseño de sitios web en WordPress. Mantenimiento y actualización constante de sitios web, asegurando su buen funcionamiento y seguridad. Optimización del rendimiento y SEO para mejorar la velocidad de carga y el posicionamiento en motores de búsqueda. Implementación de estrategias de marketing digital efectivas para aumentar la visibilidad y atraer más clientes potenciales.",
       "highlights": [""]
     },
     {
@@ -57,7 +57,7 @@
       "badge": "",
       "startDate": "2023-06-02",
       "endDate": "",
-      "summary": "Dictado de clases particulares de programación en Python, JavaScript, HTML, CSS. Preparación de alumnos para rendir exámenes y trabajos prácticos.",
+      "summary": "Clases particulares de programación en Python, JavaScript, HTML, CSS. Preparación de alumnos para rendir exámenes y trabajos prácticos.",
       "highlights": [""]
     }
   ],
@@ -75,7 +75,7 @@
   "education": [
     {
       "institution": "UTN Universidad Tecnologica Nacional - La Rioja",
-      "career": "Técnico Universitario en Programación",
+      "career": "Técnico Universitario en Programación - (4 finales pendientes)",
       "url": "http://www.frlr.utn.edu.ar/",
       "studyType": "Terciario",
       "startDate": "2023-02-20",
@@ -139,7 +139,8 @@
       "name": "TypeScript",
       "level": "",
       "keywords": [""]
-    },{
+    },
+    {
       "name": "CSS3",
       "level": "",
       "keywords": [""]
@@ -153,7 +154,8 @@
       "name": "WordPress",
       "level": "",
       "keywords": [""]
-    },{
+    },
+    {
       "name": "WooCommerce",
       "level": "",
       "keywords": [""]
@@ -180,6 +182,26 @@
     },
     {
       "name": "Express",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "Spring",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "MongoDB",
       "level": "",
       "keywords": [""]
     },
@@ -223,17 +245,35 @@
       "endDate": "",
       "isActive": true,
       "description": "Actualmente en desarrollo en el framework Astro con TailwindCSS",
-      "highlights": ["React", "TailwindCSS", "Desarrollo Web"],
+      "highlights": ["HTML", "CSS", "Desarrollo Web"],
       "url": "https://soyxander.github.io/"
     },
     {
-      "name": "Moises Jabif",
+      "name": "Moises Jabif - Entrenamiento Online",
       "startDate": "",
       "endDate": "",
       "isActive": true,
       "description": "Plataforma de venta de entrenamientos y asesoramiento fitness online",
-      "highlights": ["Encargado técnico", "SEO", "Marketing Digital", "Google Analytics"],
+      "highlights": [
+        "LMS",
+        "SEO",
+        "Marketing Digital"
+      ],
       "url": "https://moisesjabif.com"
+    },
+    {
+      "name": "Luani",
+      "startDate": "",
+      "endDate": "",
+      "isActive": true,
+      "description": "Ecommerce de indumentaria femenina, con presencia en Argentina.",
+      "highlights": [
+        "Ecommerce",
+        "SEO",
+        "Marketing Digital",
+        "Google Analytics"
+      ],
+      "url": "https://luani.com.ar/"
     },
     {
       "name": "Tu Entradita",
@@ -245,15 +285,6 @@
       "url": "https://tuentradita.com.ar"
     },
     {
-      "name": "Luani",
-      "startDate": "",
-      "endDate": "",
-      "isActive": true,
-      "description": "Ecommerce de indumentaria femenina, con presencia en Argentina.",
-      "highlights": ["Ecommerce", "SEO", "Marketing Digital", "Google Analytics"],
-      "url": "https://luani.com.ar/"
-    },
-    {
       "name": "El Informador LR",
       "startDate": "",
       "endDate": "",
@@ -262,24 +293,7 @@
       "highlights": ["Anuncios", "Mantenimiento"],
       "url": "https://elinformadorlr.com.ar/"
     },
-    {
-      "name": "Cinema 3D La Rioja (En curso)",
-      "startDate": "",
-      "endDate": "",
-      "isActive": true,
-      "description": "Rediseño e implementación de venta de entradas online en curso.",
-      "highlights": ["Entradas online", "Rediseño", "Mantenimiento"],
-      "url": "https://cinema3dlarioja.com/"
-    },
-    {
-      "name": "L2 Raz",
-      "startDate": "",
-      "endDate": "",
-      "isActive": true,
-      "description": "Comunidad privada de Lineage 2",
-      "highlights": ["Servidor privado", "Sistema de gestion de cuenta", "Launcher"],
-      "url": "#"
-    },
+    
     {
       "name": "Casa Grande Hotel",
       "startDate": "",
