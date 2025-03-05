@@ -6,7 +6,7 @@
     "email": "zn.xander@gmail.com",
     "phone": "(+54) 3804-818488",
     "url": "https://gabrielhumerez.dev",
-    "summary": "Inicié mi trayectoria programando en Java como una actividad de interés personal. Posteriormente durante la pandemia, amplié mis habilidades desempeñándome como Webmaster en proyectos WordPress y he enfocado mis esfuerzos en especializarme en el desarrollo web Full Stack. Actualmente, me encuentro finalizando la carrera de Técnico Universitario en Programación en la UTN La Rioja (4 finales pendientes).",
+    "summary": "Inicié mi trayectoria programando en Java como una actividad de interés personal. Posteriormente durante la pandemia, amplié mis habilidades desempeñándome como Webmaster en proyectos WordPress y he enfocado mis esfuerzos en especializarme en el desarrollo web Full Stack. Actualmente, me encuentro finalizando la carrera de Técnico Universitario en Programación en la UTN (4 finales pendientes).",
     "location": {
       "address": "",
       "city": "Córdoba",
@@ -30,6 +30,15 @@
     ]
   },
   "work": [
+    {
+      "name": "Fydhe - Red de Institutos",
+      "position": "Desarrollador Full Stack",
+      "url": "",
+      "badge": "",
+      "startDate": "2024-08-02",
+      "endDate": "2024-10-30",
+      "summary": "Desarrollo de sistema interno para la gestión de emisión de certificados. API desarrollada en NodeJS con Express y MongoDB. Desarrollo de la aplicación web con React y Tailwind CSS."
+    },
     {
       "name": "Organización y Desarrollo",
       "position": "Desarrollador Web WordPress",
@@ -201,6 +210,11 @@
       "keywords": [""]
     },
     {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": [""]
+    },
+    {
       "name": "MongoDB",
       "level": "",
       "keywords": [""]
@@ -254,11 +268,7 @@
       "endDate": "",
       "isActive": true,
       "description": "Plataforma de venta de entrenamientos y asesoramiento fitness online",
-      "highlights": [
-        "LMS",
-        "SEO",
-        "Marketing Digital"
-      ],
+      "highlights": ["LMS", "SEO", "Marketing Digital"],
       "url": "https://moisesjabif.com"
     },
     {
@@ -274,6 +284,15 @@
         "Google Analytics"
       ],
       "url": "https://luani.com.ar/"
+    },
+    {
+      "name": "Primero Nutrición",
+      "startDate": "",
+      "endDate": "",
+      "isActive": true,
+      "description": "Ecommerce de venta de planes de nutrición y alimentos para el cuidado de la salud.",
+      "highlights": ["Ecommerce", "Mantenimiento"],
+      "url": "https://primeronutricion.com.ar/"
     },
     {
       "name": "Tu Entradita",
@@ -293,7 +312,7 @@
       "highlights": ["Anuncios", "Mantenimiento"],
       "url": "https://elinformadorlr.com.ar/"
     },
-    
+
     {
       "name": "Casa Grande Hotel",
       "startDate": "",
