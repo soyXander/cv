@@ -6,7 +6,7 @@
     "email": "zn.xander@gmail.com",
     "phone": "(+54) 3804-818488",
     "url": "https://gabrielhumerez.dev",
-    "summary": "Inicié mi trayectoria programando en Java como una actividad de interés personal. Posteriormente durante la pandemia, amplié mis habilidades desempeñándome como Webmaster en proyectos WordPress y he enfocado mis esfuerzos en especializarme en el desarrollo web Full Stack. Actualmente, me encuentro finalizando la carrera de Técnico Universitario en Programación en la UTN (4 finales pendientes).",
+    "summary": "Apasionado Desarrollador Full Stack, graduado como Técnico Universitario en Programaición. Con experiencia en el desarrollo de aplicaciones web modernas y escalables. Con firmes habilidades en React, NodeJS y Express, con enfoque en el desarrollo de soluciones eficientes. Con un base solida en programación y una gran capacidad para adaptarme a los desafíos. Busco unirme a un equipo innovador donde pueda aplicar mis habilidades y poder contribuir al crecimiento de la empresa. Abierto a oportunidades en Argentina y en otros paises de forma remota.",
     "location": {
       "address": "",
       "city": "Córdoba",
@@ -37,7 +37,7 @@
       "badge": "",
       "startDate": "2024-08-02",
       "endDate": "2024-10-30",
-      "summary": "Desarrollo de sistema interno para la gestión de emisión de certificados. API desarrollada en NodeJS con Express y MongoDB. Desarrollo de la aplicación web con React y Tailwind CSS."
+      "summary": "Diseñe y desarrollé un sistema interno de gestión de emisión de certificados utilizando React, NodeJS, Express y MongoDB para reemplazar el antiguo proceso manual de los mismos. El sistema permitió automatizar la emisión de certificados, reduciendo el tiempo de procesamiento y la incidencia de errores humanos."
     },
     {
       "name": "Organización y Desarrollo",
@@ -46,7 +46,7 @@
       "badge": "",
       "startDate": "2023-05-02",
       "endDate": "2024-04-30",
-      "summary": "Actualización y mantenimiento de sitios web en WordPress. Optimización del rendimiento para mejorar la velocidad de carga. Participación en la implementación de estrategias de marketing digital y una variedad de servicios adicionales adaptados a cada proyecto.",
+      "summary": "Administré y optimicé webs creados con WordPress, mejorando la velocidad de carga entre un 30% y 50%, mediante técnicas de caching y optimización de imágenes. Colaboré en la implementación de estrategias de marketing aplicando buenas practicas de SEO. Brindé soporte técnico y soluciones personalizadas a clientes asegurando la satisfacción del cliente.",
       "highlights": [""]
     },
     {
@@ -56,7 +56,7 @@
       "badge": "",
       "startDate": "2021-12-02",
       "endDate": "",
-      "summary": "Diseño de sitios web en WordPress. Mantenimiento y actualización constante de sitios web, asegurando su buen funcionamiento y seguridad. Optimización del rendimiento y SEO para mejorar la velocidad de carga y el posicionamiento en motores de búsqueda. Implementación de estrategias de marketing digital efectivas para aumentar la visibilidad y atraer más clientes potenciales.",
+      "summary": "Diseñé y desarrollé sitios web en WordPress para clientes de diferentes industrias, satisfaciendo las necesidades de la marca. Implementé estrategias de SEO on-page y off-page, logrando un aumento de la visibilidad y el posicionamiento en motores de búsqueda. Recuperé e incremente la seguridad en sitios web hackeados.",
       "highlights": [""]
     },
     {
@@ -66,30 +66,19 @@
       "badge": "",
       "startDate": "2023-06-02",
       "endDate": "",
-      "summary": "Clases particulares de programación en Python, JavaScript, HTML, CSS. Preparación de alumnos para rendir exámenes y trabajos prácticos.",
-      "highlights": [""]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "",
-      "position": "",
-      "url": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "summary": "Impartí clases particulares de programación en Python, JavaScript, C/C++, HTML, CSS a estudiantes de distintos niveles de la carrera de programación de la UTN logrando incrementar la tasa de aprobación. Fomenté un ambiente de aprendizaje continuo, logrando inspirar a superarse y explorar su potencial en el mundo de la programación.",
       "highlights": [""]
     }
   ],
   "education": [
     {
       "institution": "UTN Universidad Tecnologica Nacional - La Rioja",
-      "career": "Técnico Universitario en Programación - (4 finales pendientes)",
+      "career": "Técnico Universitario en Programación",
       "url": "http://www.frlr.utn.edu.ar/",
-      "studyType": "Terciario",
+      "studyType": "Universitario",
       "startDate": "2023-02-20",
-      "endDate": "",
-      "score": "8.81",
+      "endDate": "2025-02-20",
+      "score": "9",
       "courses": []
     },
     {
@@ -111,31 +100,6 @@
       "endDate": "2022-07-31",
       "score": "8.81",
       "highlights": []
-    }
-  ],
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
-    }
-  ],
-  "certificates": [
-    {
-      "name": "",
-      "date": "",
-      "issuer": "",
-      "url": ""
-    }
-  ],
-  "publications": [
-    {
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "url": "",
-      "summary": ""
     }
   ],
   "skills": [
@@ -240,35 +204,36 @@
       "fluency": "Medio"
     }
   ],
-  "interests": [
-    {
-      "name": "",
-      "keywords": [""]
-    }
-  ],
-  "references": [
-    {
-      "name": "",
-      "reference": ""
-    }
-  ],
   "projects": [
     {
-      "name": "Portfolio Personal",
+      "name": "Fydhe - Red de Institutos",
       "startDate": "",
       "endDate": "",
       "isActive": true,
-      "description": "Actualmente en desarrollo en el framework Astro con TailwindCSS",
-      "highlights": ["HTML", "CSS", "Desarrollo Web"],
-      "url": "https://soyxander.github.io/"
+      "description": "Desarrollo de sistema interno para la gestión de emisión de certificados. API desarrollada en NodeJS con Express y MongoDB. Desarrollo de la aplicación web con React y Tailwind CSS.",
+      "highlights": ["React", "TailwindCSS", "NodeJS", "Express", "MongoDB"]
+    },
+    {
+      "name": "SaaS Punto de Venta",
+      "startDate": "",
+      "endDate": "",
+      "isActive": true,
+      "description": "Desarrollo de sistema de punto de venta para la gestión de inventarios y compras. API desarrollada en NodeJS con Express y MongoDB. Desarrollo de la aplicación web con React y Tailwind CSS.",
+      "highlights": ["React", "TailwindCSS", "NodeJS", "Express", "MongoDB"]
     },
     {
       "name": "Moises Jabif - Entrenamiento Online",
       "startDate": "",
       "endDate": "",
       "isActive": true,
-      "description": "Plataforma de venta de entrenamientos y asesoramiento fitness online",
-      "highlights": ["LMS", "SEO", "Marketing Digital"],
+      "description": "Plataforma de venta de entrenamientos y asesoramiento fitness online con integración de sistemas de pago y optimización SEO para captación de clientes.",
+      "highlights": [
+        "WordPress",
+        "WooCommerce",
+        "LMS",
+        "SEO",
+        "Marketing Digital"
+      ],
       "url": "https://moisesjabif.com"
     },
     {
@@ -276,12 +241,13 @@
       "startDate": "",
       "endDate": "",
       "isActive": true,
-      "description": "Ecommerce de indumentaria femenina, con presencia en Argentina.",
+      "description": "Ecommerce de indumentaria femenina con presencia en Argentina, optimizado para SEO y con integración de Google Analytics para seguimiento de métricas de venta.",
       "highlights": [
+        "WordPress",
+        "WooCommerce",
         "Ecommerce",
         "SEO",
-        "Marketing Digital",
-        "Google Analytics"
+        "Marketing Digital"
       ],
       "url": "https://luani.com.ar/"
     },
@@ -290,8 +256,8 @@
       "startDate": "",
       "endDate": "",
       "isActive": true,
-      "description": "Ecommerce de venta de planes de nutrición y alimentos para el cuidado de la salud.",
-      "highlights": ["Ecommerce", "Mantenimiento"],
+      "description": "Ecommerce especializado en la venta de planes de nutrición y alimentos saludables, con mantenimiento continuo y optimización de experiencia de usuario.",
+      "highlights": ["WordPress", "WooCommerce", "Ecommerce", "Mantenimiento"],
       "url": "https://primeronutricion.com.ar/"
     },
     {
@@ -299,8 +265,13 @@
       "startDate": "",
       "endDate": "",
       "isActive": false,
-      "description": "Sistema de venta de entradas online para eventos",
-      "highlights": ["Ecommerce", "Mantenimiento"],
+      "description": "Sistema de venta de entradas online para eventos, con pasarelas de pago y gestión de stock de entradas.",
+      "highlights": [
+        "Laravel",
+        "Ecommerce",
+        "Pasarela de pagos",
+        "Mantenimiento"
+      ],
       "url": "https://tuentradita.com.ar"
     },
     {
@@ -308,18 +279,23 @@
       "startDate": "",
       "endDate": "",
       "isActive": true,
-      "description": "Portal de noticias en La Rioja, Argentina.",
-      "highlights": ["Anuncios", "Mantenimiento"],
+      "description": "Portal de noticias de La Rioja, Argentina, con generación de contenido dinámico y monetización mediante anuncios.",
+      "highlights": [
+        "WordPress",
+        "Anuncios",
+        "SEO",
+        "Mantenimiento",
+        "Google Analytics"
+      ],
       "url": "https://elinformadorlr.com.ar/"
     },
-
     {
       "name": "Casa Grande Hotel",
       "startDate": "",
       "endDate": "",
       "isActive": true,
-      "description": "Web del Hotel Casa Grande ubicado en Chilecito, La Rioja, Argentina.",
-      "highlights": ["Sistema de Booking", "Mantenimiento"],
+      "description": "Sitio web del Hotel Casa Grande en Chilecito, La Rioja, Argentina, con sistema de reservas online para una gestión eficiente.",
+      "highlights": ["WordPress", "Sistema de Booking", "SEO", "Mantenimiento"],
       "url": "https://casagrandehotel.com.ar"
     },
     {
@@ -327,8 +303,8 @@
       "startDate": "",
       "endDate": "",
       "isActive": true,
-      "description": "Web de las cabañas Gosén ubicadas en Sanagasta y la Capital de La Rioja, Argentina.",
-      "highlights": ["Sistema de Booking", "Mantenimiento"],
+      "description": "Sitio web para las cabañas Gosén en Sanagasta y la Capital de La Rioja, con sistema de reservas integrado.",
+      "highlights": ["WordPress", "Sistema de Booking", "SEO", "Mantenimiento"],
       "url": "https://gosensrl.com.ar"
     },
     {
@@ -336,8 +312,14 @@
       "startDate": "",
       "endDate": "",
       "isActive": true,
-      "description": "Portal informativo sobre los cursos y carreras que se dictan.",
-      "highlights": ["Sistema de administración", "Mantenimiento"],
+      "description": "Portal informativo sobre los cursos y carreras que se dictan, con sistema de administración para gestión de contenidos.",
+      "highlights": [
+        "React",
+        "TailwindCSS",
+        "Firebase",
+        "Sistema de administración",
+        "Mantenimiento"
+      ],
       "url": "https://complejoeducativo.com"
     },
     {
@@ -345,8 +327,13 @@
       "startDate": "",
       "endDate": "",
       "isActive": false,
-      "description": "Portal de noticias de La Rioja, Argentina.",
-      "highlights": ["Generación de noticias", "SEO", "Google Analytics"],
+      "description": "Portal de noticias de La Rioja, Argentina, con estrategias SEO y Google Analytics para mejorar el alcance y la retención de usuarios.",
+      "highlights": [
+        "WordPress",
+        "Generación de noticias",
+        "SEO",
+        "Google Analytics"
+      ],
       "url": "https://unadosisdiaria.com.ar"
     }
   ]
