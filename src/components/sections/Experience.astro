@@ -1,5 +1,6 @@
 ---
 import Section from "@/components/Section.astro"
+import { formatDate } from "@/utils/formatDate"
 
 import { work } from "@cv"
 ---
@@ -7,18 +8,6 @@ import { work } from "@cv"
 <Section title="Experiencias">
   {
     work.map(({ name, position, url, badge, startDate, endDate, summary }) => {
-      const formatStartDate = () => {
-        const date = new Date(startDate)
-        return `${date.getMonth() + 1}/${date.getFullYear()}`
-      }
-      const formatEndDate = () => {
-        if (!endDate) {
-          return "Actual"
-        }
-        const date = new Date(endDate)
-        return `${date.getMonth() + 1}/${date.getFullYear()}`
-      }
-
       return (
         <div class="pb-4">
           <div class="flex justify-between">
@@ -39,10 +28,10 @@ import { work } from "@cv"
               )}
             </div>
             <h3 class="text-sm tabular-nums text-gray-500">
-              {formatStartDate} - {formatEndDate}
+              {formatDate(startDate)} - {formatDate(endDate)}
             </h3>
           </div>
-          <p class="text-pretty font-mono text-sm text-secondary">{summary}</p>
+          <p class="text-pretty font-mono text-xs text-secondary">{summary}</p>
         </div>
       )
     })
