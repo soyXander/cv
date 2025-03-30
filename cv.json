@@ -6,7 +6,7 @@
     "email": "zn.xander@gmail.com",
     "phone": "(+54) 3804-818488",
     "url": "https://gabrielhumerez.dev",
-    "summary": "Apasionado Desarrollador Full Stack, graduado como Técnico Universitario en Programaición. Con experiencia en el desarrollo de aplicaciones web modernas y escalables. Con firmes habilidades en React, NodeJS y Express, con enfoque en el desarrollo de soluciones eficientes. Con un base solida en programación y una gran capacidad para adaptarme a los desafíos. Busco unirme a un equipo innovador donde pueda aplicar mis habilidades y poder contribuir al crecimiento de la empresa. Abierto a oportunidades en Argentina y en otros paises de forma remota.",
+    "summary": "Apasionado Desarrollador Full Stack, graduado como Técnico Universitario en Programación. Con experiencia en el desarrollo de aplicaciones web modernas y escalables. Con sólidas habilidades en React, NodeJS y Express, enfocado en el desarrollo de soluciones eficientes. Con una base solida en programación y una gran capacidad para adaptarme a los desafíos. Busco unirme a un equipo innovador donde pueda aplicar mis habilidades y contribuir al crecimiento de la empresa. Abierto a oportunidades en Argentina y en otros países de forma remota.",
     "location": {
       "address": "",
       "city": "Córdoba",
@@ -51,22 +51,12 @@
     },
     {
       "name": "Diseño Web WordPress",
-      "position": "",
+      "position": "Freelance",
       "url": "",
       "badge": "",
       "startDate": "2021-12-02",
       "endDate": "",
       "summary": "Diseñé y desarrollé sitios web en WordPress para clientes de diferentes industrias, satisfaciendo las necesidades de la marca. Implementé estrategias de SEO on-page y off-page, logrando un aumento de la visibilidad y el posicionamiento en motores de búsqueda. Recuperé e incremente la seguridad en sitios web hackeados.",
-      "highlights": [""]
-    },
-    {
-      "name": "Clases Particulares",
-      "position": "",
-      "url": "",
-      "badge": "",
-      "startDate": "2023-06-02",
-      "endDate": "",
-      "summary": "Impartí clases particulares de programación en Python, JavaScript, C/C++, HTML, CSS a estudiantes de distintos niveles de la carrera de programación de la UTN logrando incrementar la tasa de aprobación. Fomenté un ambiente de aprendizaje continuo, logrando inspirar a superarse y explorar su potencial en el mundo de la programación.",
       "highlights": [""]
     }
   ],
@@ -102,98 +92,86 @@
       "highlights": []
     }
   ],
-  "skills": [
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "TypeScript",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "CSS3",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "TailwindCSS",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "WordPress",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "WooCommerce",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "React",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "Astro",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "Angular",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "NodeJS",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "Express",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "Java",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "Spring",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "MySQL",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "PostgreSQL",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "MongoDB",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "Python",
-      "level": "",
-      "keywords": [""]
-    },
-    {
-      "name": "PyQt",
-      "level": "",
-      "keywords": [""]
-    }
-  ],
+  "skills": {
+    "backend": [
+      {
+        "name": "NodeJS",
+        "level": 2
+      },
+      {
+        "name": "Express",
+        "level": 2
+      },
+      {
+        "name": "Java",
+        "level": 2
+      },
+      {
+        "name": "Spring",
+        "level": 2
+      },
+      {
+        "name": "Python",
+        "level": 2
+      }
+    ],
+    "frontend": [
+      {
+        "name": "JavaScript",
+        "level": 2
+      },
+      {
+        "name": "TypeScript",
+        "level": 2
+      },
+      {
+        "name": "CSS3",
+        "level": 2
+      },
+      {
+        "name": "TailwindCSS",
+        "level": 2
+      },
+      {
+        "name": "React",
+        "level": 2
+      },
+      {
+        "name": "Angular",
+        "level": 1
+      },
+      {
+        "name": "Astro",
+        "level": 1
+      },
+      {
+        "name": "PyQt",
+        "level": 1
+      }
+    ],
+    "other": [
+      {
+        "name": "WordPress",
+        "level": 3
+      },
+      {
+        "name": "WooCommerce",
+        "level": 3
+      },
+      {
+        "name": "MySQL",
+        "level": 2
+      },
+      {
+        "name": "MongoDB",
+        "level": 2
+      },
+      {
+        "name": "Firebase",
+        "level": 1
+      }
+    ]
+  },
   "languages": [
     {
       "language": "Español",
@@ -211,18 +189,10 @@
       "endDate": "",
       "isActive": true,
       "description": "Desarrollo de sistema interno para la gestión de emisión de certificados. API desarrollada en NodeJS con Express y MongoDB. Desarrollo de la aplicación web con React y Tailwind CSS.",
-      "highlights": ["React", "TailwindCSS", "NodeJS", "Express", "MongoDB"]
+      "highlights": ["React", "TailwindCSS", "Express", "MongoDB"]
     },
     {
-      "name": "SaaS Punto de Venta",
-      "startDate": "",
-      "endDate": "",
-      "isActive": true,
-      "description": "Desarrollo de sistema de punto de venta para la gestión de inventarios y compras. API desarrollada en NodeJS con Express y MongoDB. Desarrollo de la aplicación web con React y Tailwind CSS.",
-      "highlights": ["React", "TailwindCSS", "NodeJS", "Express", "MongoDB"]
-    },
-    {
-      "name": "Moises Jabif - Entrenamiento Online",
+      "name": "Moises Jabif - Online Couch",
       "startDate": "",
       "endDate": "",
       "isActive": true,
@@ -242,13 +212,7 @@
       "endDate": "",
       "isActive": true,
       "description": "Ecommerce de indumentaria femenina con presencia en Argentina, optimizado para SEO y con integración de Google Analytics para seguimiento de métricas de venta.",
-      "highlights": [
-        "WordPress",
-        "WooCommerce",
-        "Ecommerce",
-        "SEO",
-        "Marketing Digital"
-      ],
+      "highlights": ["WordPress", "WooCommerce"],
       "url": "https://luani.com.ar/"
     },
     {
@@ -257,22 +221,8 @@
       "endDate": "",
       "isActive": true,
       "description": "Ecommerce especializado en la venta de planes de nutrición y alimentos saludables, con mantenimiento continuo y optimización de experiencia de usuario.",
-      "highlights": ["WordPress", "WooCommerce", "Ecommerce", "Mantenimiento"],
+      "highlights": ["WordPress", "WooCommerce"],
       "url": "https://primeronutricion.com.ar/"
-    },
-    {
-      "name": "Tu Entradita",
-      "startDate": "",
-      "endDate": "",
-      "isActive": false,
-      "description": "Sistema de venta de entradas online para eventos, con pasarelas de pago y gestión de stock de entradas.",
-      "highlights": [
-        "Laravel",
-        "Ecommerce",
-        "Pasarela de pagos",
-        "Mantenimiento"
-      ],
-      "url": "https://tuentradita.com.ar"
     },
     {
       "name": "El Informador LR",
@@ -280,13 +230,7 @@
       "endDate": "",
       "isActive": true,
       "description": "Portal de noticias de La Rioja, Argentina, con generación de contenido dinámico y monetización mediante anuncios.",
-      "highlights": [
-        "WordPress",
-        "Anuncios",
-        "SEO",
-        "Mantenimiento",
-        "Google Analytics"
-      ],
+      "highlights": ["WordPress", "Mantenimiento"],
       "url": "https://elinformadorlr.com.ar/"
     },
     {
@@ -295,7 +239,7 @@
       "endDate": "",
       "isActive": true,
       "description": "Sitio web del Hotel Casa Grande en Chilecito, La Rioja, Argentina, con sistema de reservas online para una gestión eficiente.",
-      "highlights": ["WordPress", "Sistema de Booking", "SEO", "Mantenimiento"],
+      "highlights": ["WordPress", "Sistema de Booking"],
       "url": "https://casagrandehotel.com.ar"
     },
     {
@@ -304,7 +248,7 @@
       "endDate": "",
       "isActive": true,
       "description": "Sitio web para las cabañas Gosén en Sanagasta y la Capital de La Rioja, con sistema de reservas integrado.",
-      "highlights": ["WordPress", "Sistema de Booking", "SEO", "Mantenimiento"],
+      "highlights": ["WordPress", "Sistema de Booking"],
       "url": "https://gosensrl.com.ar"
     },
     {
@@ -313,13 +257,7 @@
       "endDate": "",
       "isActive": true,
       "description": "Portal informativo sobre los cursos y carreras que se dictan, con sistema de administración para gestión de contenidos.",
-      "highlights": [
-        "React",
-        "TailwindCSS",
-        "Firebase",
-        "Sistema de administración",
-        "Mantenimiento"
-      ],
+      "highlights": ["React", "TailwindCSS", "Firebase"],
       "url": "https://complejoeducativo.com"
     },
     {
@@ -328,12 +266,7 @@
       "endDate": "",
       "isActive": false,
       "description": "Portal de noticias de La Rioja, Argentina, con estrategias SEO y Google Analytics para mejorar el alcance y la retención de usuarios.",
-      "highlights": [
-        "WordPress",
-        "Generación de noticias",
-        "SEO",
-        "Google Analytics"
-      ],
+      "highlights": ["WordPress", "Generación de noticias"],
       "url": "https://unadosisdiaria.com.ar"
     }
   ]
