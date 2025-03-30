@@ -155,10 +155,6 @@
         "level": 3
       },
       {
-        "name": "WooCommerce",
-        "level": 3
-      },
-      {
         "name": "MySQL",
         "level": 2
       },
@@ -167,7 +163,11 @@
         "level": 2
       },
       {
-        "name": "Firebase",
+        "name": "AWS",
+        "level": 1
+      },
+      {
+        "name": "GCP",
         "level": 1
       }
     ]
