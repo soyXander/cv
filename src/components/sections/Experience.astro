@@ -13,10 +13,10 @@ import { work } from "@cv"
           <div class="flex justify-between">
             <div class="flex items-center gap-x-1">
               <a
-                href={url}
+                href={url ? url : null}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-base font-bold hover:underline">
+                class="cursor-pointer text-base font-bold hover:underline">
                 {name}
               </a>
               {position && (

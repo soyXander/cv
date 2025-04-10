@@ -12,8 +12,8 @@ import { projects } from "@cv"
           <article class="rounded border border-muted p-1.5 transition hover:border-secondary print:border-secondary">
             <h3 class="font-semibold">
               <a
-                class="hover:underline"
-                href={url}
+                class="cursor-pointer hover:underline"
+                href={url ? url : null}
                 target="_blank"
                 rel="noopener noreferrer">
                 {name}
