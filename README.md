@@ -1,4 +1,17 @@
-# Astro Starter Kit: Basics
+# CV de Gabriel Humerez Romero
+
+## Entorno y despliegue
+
+- Node.js 24.x (también en Vercel → Settings → Build and Deployment).
+- Instalar con `npm ci`; el `package-lock.json` fija las versiones del despliegue.
+- Verificar con `npm run build` (comprobación de tipos y compilación estática).
+- Astro 7 utiliza Tailwind CSS 4 mediante `@tailwindcss/vite`. Los estilos se
+  cargan desde `src/styles/global.css`, conservando los colores de
+  `tailwind.config.mjs` mediante `@config`.
+- TypeScript se mantiene en 6.x por compatibilidad con `@astrojs/check` y
+  `@typescript-eslint/parser`.
+
+## Referencia de la plantilla original
 
 ```sh
 npm create astro@latest -- --template basics
