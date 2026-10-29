@@ -12,14 +12,14 @@ const { title } = Astro.props
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="Curriculum Vitae de Gabriel Humerez Romero, Full Stack Developer."
+      content="Currículum de Gabriel Humerez Romero: desarrollo Full Stack, automatización e integración de agentes de IA."
     />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
   </head>
   <body
-    class="container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16 print:p-12">
+    class="container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16 print:p-0">
     <slot />
   </body>
 </html>
@@ -39,5 +39,45 @@ const { title } = Astro.props
       Liberation Mono,
       Courier New,
       monospace;
+  }
+  @page {
+    size: A4;
+    margin: 13mm;
+  }
+
+  @media print {
+    html, body {
+      font-size: 12px;
+      color: #111;
+    }
+    body {
+      width: auto;
+      max-width: none;
+      margin: 0;
+      padding: 0;
+      overflow: visible;
+    }
+    main {
+      max-width: none !important;
+    }
+    main > * + * {
+      margin-top: 1rem !important;
+    }
+    p, li, dd {
+      line-height: 1.4;
+    }
+    .cv-second-page {
+      break-before: page;
+      margin-top: 0 !important;
+    }
+    .experience-entry, .project-entry, .education-entry, .skills-group {
+      break-inside: avoid;
+    }
+    .projects-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    h2, h3 {
+      break-after: avoid;
+    }
   }
 </style>

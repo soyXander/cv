@@ -4,6 +4,7 @@ export const formatDate = (date) => {
   }
 
   const formattedDate = new Date(date).toLocaleString("es-AR", {
+    timeZone: "UTC",
     month: "short",
     year: "numeric",
   });

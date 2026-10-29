@@ -8,13 +8,15 @@ import Skills from "@/components/sections/Skills.astro"
 import Layout from "@/layouts/Layout.astro"
 ---
 
-<Layout title="Gabriel Humerez Romero - Full Stack Developer CV">
+<Layout title="Gabriel Humerez Romero - Automatización y Agentes de IA">
   <main class="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
     <Hero />
     <AboutMe />
     <Experience />
-    <Skills />
-    <Education />
-    <Projects />
+    <div class="cv-second-page space-y-8 print:space-y-4">
+      <Projects />
+      <Skills />
+      <Education />
+    </div>
   </main>
 </Layout>

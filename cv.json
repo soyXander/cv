@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Gabriel Humerez Romero",
-    "label": "Desarrollador Web Full Stack y Webmaster WordPress",
+    "label": "Desarrollador Full Stack | Automatización y Agentes de IA",
     "image": "https://avatars.githubusercontent.com/u/10144216?v=4",
     "email": "zn.xander@gmail.com",
     "phone": "(+54) 3804-818488",
     "url": "https://gabrielhumerez.dev",
-    "summary": "Apasionado Desarrollador Full Stack, graduado como Técnico Universitario en Programación. Con experiencia en el desarrollo de aplicaciones web modernas y escalables. Con sólidas habilidades en React, NodeJS y Express, enfocado en el desarrollo de soluciones eficientes. Con una base solida en programación y una gran capacidad para adaptarme a los desafíos. Busco unirme a un equipo innovador donde pueda aplicar mis habilidades y contribuir al crecimiento de la empresa. Abierto a oportunidades en Argentina y en otros países de forma remota.",
+    "summary": "Técnico Universitario en Programación con experiencia en desarrollo Full Stack, automatización de procesos e integración de agentes de IA. Implementación de chatbots para WhatsApp y Telegram, asistentes para tiendas online y un CRM propio con capacidades de IA. JavaScript y TypeScript avanzados, Python intermedio e integración de APIs, webhooks y bases de datos. Experiencia con n8n, Zapier y modelos de OpenAI y DeepSeek.",
     "location": {
       "address": "",
       "city": "Córdoba",
@@ -31,13 +31,28 @@
   },
   "work": [
     {
+      "name": "Freelance, emprendimientos y proyectos propios",
+      "position": "Desarrollo Full Stack y Automatización con IA",
+      "url": "",
+      "badge": "",
+      "startDate": "2024-08-01",
+      "endDate": "",
+      "summary": "Desarrollo de soluciones web e integraciones para automatizar procesos y tareas comerciales.",
+      "highlights": [
+        "Implementación de chatbots multicanal con reglas e IA, integrando WhatsApp Cloud API, Evolution API y Telegram.",
+        "Automatización con n8n y migración de flujos desde Zapier; integración de APIs, webhooks y modelos de OpenAI y DeepSeek.",
+        "Implementación de agentes con OpenClaw y Hermes, y desarrollo de un CRM propio sobre PostgreSQL, actualmente en pruebas previas a producción.",
+        "Pruebas de permisos y datos de entrada, revisión de registros, manejo de errores, reintentos, prevención de duplicados y confirmación humana según la acción."
+      ]
+    },
+    {
       "name": "Fydhe - Red de Institutos",
       "position": "Desarrollador Full Stack",
       "url": "",
       "badge": "",
       "startDate": "2024-08-02",
       "endDate": "2024-10-30",
-      "summary": "Diseñe y desarrollé un sistema interno de gestión de emisión de certificados utilizando React, NodeJS, Express y MongoDB para reemplazar el antiguo proceso manual de los mismos. El sistema permitió automatizar la emisión de certificados, reduciendo el tiempo de procesamiento y la incidencia de errores humanos."
+      "summary": "Diseñé y desarrollé un sistema interno de emisión de certificados con React, Node.js, Express y MongoDB. Automaticé el proceso manual, reduciendo los tiempos de procesamiento y los errores humanos."
     },
     {
       "name": "Organización y Desarrollo",
@@ -46,8 +61,7 @@
       "badge": "",
       "startDate": "2023-05-02",
       "endDate": "2024-04-30",
-      "summary": "Administré y optimicé webs creados con WordPress, mejorando la velocidad de carga entre un 30% y 50%, mediante técnicas de caching y optimización de imágenes. Colaboré en la implementación de estrategias de marketing aplicando buenas practicas de SEO. Brindé soporte técnico y soluciones personalizadas a clientes asegurando la satisfacción del cliente.",
-      "highlights": [""]
+      "summary": "Administré y optimicé sitios WordPress, mejorando su velocidad de carga entre un 30 % y un 50 % mediante caché y optimización de imágenes. Implementé buenas prácticas de SEO y brindé soporte técnico."
     },
     {
       "name": "Diseño Web WordPress",
@@ -56,13 +70,12 @@
       "badge": "",
       "startDate": "2021-12-02",
       "endDate": "",
-      "summary": "Como freelance diseñé y desarrollé sitios web en WordPress para clientes de diferentes industrias, satisfaciendo las necesidades de la marca. Implementé estrategias de SEO on-page y off-page, logrando un aumento de la visibilidad y el posicionamiento en motores de búsqueda. Recuperé e incremente la seguridad en sitios web hackeados.",
-      "highlights": [""]
+      "summary": "Diseño, desarrollo y mantenimiento de sitios WordPress para diferentes industrias, con SEO, recuperación de sitios comprometidos y mejoras de seguridad."
     }
   ],
   "education": [
     {
-      "institution": "UTN Universidad Tecnologica Nacional - La Rioja",
+      "institution": "Universidad Tecnológica Nacional — Facultad Regional La Rioja",
       "career": "Técnico Universitario en Programación",
       "url": "http://www.frlr.utn.edu.ar/",
       "studyType": "Universitario",
@@ -77,7 +90,7 @@
       "url": "https://www.oracle.com/ar/education/oracle-next-education/",
       "studyType": "Programa de capacitación",
       "startDate": "2022-09-01",
-      "endDate": " 2022-12-02",
+      "endDate": "2022-12-02",
       "score": "",
       "highlights": []
     },
@@ -93,82 +106,76 @@
     }
   ],
   "skills": {
+    "automation": [
+      {
+        "name": "n8n",
+        "level": 3
+      },
+      {
+        "name": "Zapier",
+        "level": 3
+      },
+      {
+        "name": "OpenAI / DeepSeek",
+        "level": 0
+      },
+      {
+        "name": "OpenClaw / Hermes",
+        "level": 0
+      },
+      {
+        "name": "WhatsApp Cloud API / Evolution API",
+        "level": 0
+      },
+      {
+        "name": "Telegram",
+        "level": 0
+      }
+    ],
     "backend": [
       {
-        "name": "NodeJS",
-        "level": 2
+        "name": "JavaScript",
+        "level": 3
       },
       {
-        "name": "Express",
-        "level": 2
-      },
-      {
-        "name": "Java",
-        "level": 2
-      },
-      {
-        "name": "Spring",
-        "level": 2
+        "name": "TypeScript",
+        "level": 3
       },
       {
         "name": "Python",
         "level": 2
+      },
+      {
+        "name": "Node.js / Express",
+        "level": 0
+      },
+      {
+        "name": "APIs / Webhooks",
+        "level": 3
       }
     ],
     "frontend": [
       {
-        "name": "JavaScript",
-        "level": 2
+        "name": "React / Next.js",
+        "level": 0
       },
       {
-        "name": "TypeScript",
-        "level": 2
+        "name": "WordPress / WooCommerce",
+        "level": 0
       },
       {
-        "name": "CSS3",
-        "level": 2
-      },
-      {
-        "name": "TailwindCSS",
-        "level": 2
-      },
-      {
-        "name": "React",
-        "level": 2
-      },
-      {
-        "name": "Angular",
-        "level": 1
-      },
-      {
-        "name": "Astro",
-        "level": 1
-      },
-      {
-        "name": "PyQt",
-        "level": 1
+        "name": "Tailwind CSS",
+        "level": 0
       }
     ],
     "other": [
       {
-        "name": "WordPress",
-        "level": 3
+        "name": "PostgreSQL / MongoDB / MySQL",
+        "level": 0
       },
       {
-        "name": "MySQL",
-        "level": 2
-      },
-      {
-        "name": "MongoDB",
-        "level": 2
-      },
-      {
-        "name": "AWS",
-        "level": 1
-      },
-      {
-        "name": "GCP",
-        "level": 1
+        "name": "Pruebas y manejo de errores",
+        "level": 0
       }
     ]
   },
@@ -178,96 +185,68 @@
       "fluency": "Nativo"
     },
     {
-      "language": "Ingles",
-      "fluency": "Medio"
+      "language": "Inglés",
+      "fluency": "Intermedio"
     }
   ],
   "projects": [
     {
-      "name": "Fydhe - Red de Institutos",
-      "startDate": "",
-      "endDate": "",
+      "name": "CRM con agentes de IA — Edelvez",
       "isActive": true,
-      "description": "Desarrollo de sistema interno para la gestión de emisión de certificados. API desarrollada en NodeJS con Express y MongoDB. Desarrollo de la aplicación web con React y Tailwind CSS.",
-      "highlights": ["React", "TailwindCSS", "Express", "MongoDB"]
-    },
-    {
-      "name": "Moises Jabif - Online Couch",
-      "startDate": "",
-      "endDate": "",
-      "isActive": true,
-      "description": "Plataforma de venta de entrenamientos y asesoramiento fitness online con integración de sistemas de pago y optimización SEO para captación de clientes.",
+      "description": "CRM propio con PostgreSQL: consulta, creación y actualización de contactos, sugerencias comerciales, agenda de tareas y envío de mensajes. En pruebas previas a producción.",
       "highlights": [
-        "WordPress",
-        "WooCommerce",
-        "LMS",
-        "SEO",
-        "Marketing Digital"
+        "PostgreSQL",
+        "Agentes de IA",
+        "En pruebas"
       ],
-      "url": "https://moisesjabif.com"
+      "url": ""
     },
     {
-      "name": "Luani",
-      "startDate": "",
-      "endDate": "",
+      "name": "Bot de finanzas por WhatsApp",
       "isActive": true,
-      "description": "Ecommerce de indumentaria femenina con presencia en Argentina, optimizado para SEO y con integración de Google Analytics para seguimiento de métricas de venta.",
-      "highlights": ["WordPress", "WooCommerce"],
-      "url": "https://luani.com.ar/"
+      "description": "Registro de ingresos y egresos para finanzas personales. Acceso por número autorizado y permisos de administrador para gestionar usuarios. Utilizado por usuarios reales.",
+      "highlights": [
+        "WhatsApp",
+        "Control de acceso"
+      ],
+      "url": ""
     },
     {
-      "name": "Primero Nutrición",
-      "startDate": "",
-      "endDate": "",
+      "name": "Asistentes para tiendas online",
       "isActive": true,
-      "description": "Ecommerce especializado en la venta de planes de nutrición y alimentos saludables, con mantenimiento continuo y optimización de experiencia de usuario.",
-      "highlights": ["WordPress", "WooCommerce"],
-      "url": "https://primeronutricion.com.ar/"
+      "description": "Consulta de catálogo y recomendaciones de productos combinando reglas e IA. Soluciones utilizadas por usuarios y otras en pruebas.",
+      "highlights": [
+        "APIs",
+        "IA conversacional"
+      ],
+      "url": ""
     },
     {
-      "name": "El Informador LR",
-      "startDate": "",
-      "endDate": "",
+      "name": "Edelvez",
       "isActive": true,
-      "description": "Portal de noticias de La Rioja, Argentina, con generación de contenido dinámico y monetización mediante anuncios.",
-      "highlights": ["WordPress", "Mantenimiento"],
-      "url": "https://elinformadorlr.com.ar/"
+      "description": "Sitio de la agencia de desarrollo y marketing digital. Publicado y en funcionamiento.",
+      "highlights": [
+        "React"
+      ],
+      "url": "https://edelvez.com"
     },
     {
-      "name": "Casa Grande Hotel",
-      "startDate": "",
-      "endDate": "",
+      "name": "Flowsop",
       "isActive": true,
-      "description": "Sitio web del Hotel Casa Grande en Chilecito, La Rioja, Argentina, con sistema de reservas online para una gestión eficiente.",
-      "highlights": ["WordPress", "Sistema de Booking"],
-      "url": "https://casagrandehotel.com.ar"
+      "description": "Plataforma de guías rápidas para emprendedores. Publicada y en funcionamiento.",
+      "highlights": [
+        "WordPress"
+      ],
+      "url": "https://flowsop.site"
     },
     {
-      "name": "Gosén - Cabañas",
-      "startDate": "",
-      "endDate": "",
+      "name": "Lovely",
       "isActive": true,
-      "description": "Sitio web para las cabañas Gosén en Sanagasta y la Capital de La Rioja, con sistema de reservas integrado.",
-      "highlights": ["WordPress", "Sistema de Booking"],
-      "url": "https://gosensrl.com.ar"
-    },
-    {
-      "name": "Complejo Educativo",
-      "startDate": "",
-      "endDate": "",
-      "isActive": true,
-      "description": "Portal informativo sobre los cursos y carreras que se dictan, con sistema de administración para gestión de contenidos.",
-      "highlights": ["React", "TailwindCSS", "Firebase"],
-      "url": "https://complejoeducativo.com"
-    },
-    {
-      "name": "Una Dosis Diaria",
-      "startDate": "",
-      "endDate": "",
-      "isActive": false,
-      "description": "Portal de noticias de La Rioja, Argentina, con estrategias SEO y Google Analytics para mejorar el alcance y la retención de usuarios.",
-      "highlights": ["WordPress", "Generación de noticias"],
-      "url": "https://unadosisdiaria.com.ar"
+      "description": "Tienda online de juguetes para niños. Publicada y en funcionamiento.",
+      "highlights": [
+        "WordPress"
+      ],
+      "url": "https://lovely.com.ar"
     }
   ]
 }

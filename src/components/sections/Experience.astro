@@ -5,13 +5,13 @@ import { formatDate } from "@/utils/formatDate"
 import { work } from "@cv"
 ---
 
-<Section title="Experiencias">
+<Section title="Experiencia">
   {
-    work.map(({ name, position, url, badge, startDate, endDate, summary }) => {
+    work.map(({ name, position, url, badge, startDate, endDate, summary, highlights = [] }) => {
       return (
-        <div class="pb-4">
-          <div class="flex justify-between">
-            <div class="flex items-center gap-x-1">
+        <div class="experience-entry pb-4">
+          <div class="flex flex-wrap justify-between gap-x-4 gap-y-1">
+            <div class="flex flex-wrap items-center gap-x-1 gap-y-1">
               <a
                 href={url ? url : null}
                 target="_blank"
@@ -32,6 +32,11 @@ import { work } from "@cv"
             </h3>
           </div>
           <p class="text-pretty font-mono text-xs text-secondary">{summary}</p>
+          {highlights.length > 0 && (
+            <ul class="mt-1 list-disc space-y-1 pl-4 font-mono text-xs text-secondary">
+              {highlights.map((highlight) => <li>{highlight}</li>)}
+            </ul>
+          )}
         </div>
       )
     })

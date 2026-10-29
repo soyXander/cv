@@ -4,12 +4,12 @@ import Section from "@/components/Section.astro"
 import { projects } from "@cv"
 ---
 
-<Section title="Proyectos">
-  <div class="grid grid-cols-1 gap-1 sm:grid-cols-2 md:grid-cols-3">
+<Section title="Proyectos destacados">
+  <div class="projects-grid grid grid-cols-1 gap-3 sm:grid-cols-2">
     {
-      projects.map(({ name, isActive, description, highlights, url }) => {
+      projects.map(({ name, description, highlights, url }) => {
         return (
-          <article class="rounded border border-muted p-1.5 transition hover:border-secondary print:border-secondary">
+          <article class="project-entry rounded border border-muted p-2 transition hover:border-secondary print:border-secondary">
             <h3 class="font-semibold">
               <a
                 class="cursor-pointer hover:underline"
@@ -17,13 +17,10 @@ import { projects } from "@cv"
                 target="_blank"
                 rel="noopener noreferrer">
                 {name}
-                {/* {isActive && (
-                  <span class="text-bold size-5 text-green-600">•</span>
-                )} */}
               </a>
-              <a class="hidden text-xs print:block">{url}</a>
+              <a class="hidden text-xs print:block print:break-all">{url}</a>
             </h3>
-            <p class="pb-4 font-mono text-xs text-secondary">{description}</p>
+            <p class="mt-1 font-mono text-xs text-secondary">{description}</p>
             <footer class="mt-2 flex flex-wrap gap-1 gap-x-1">
               {highlights.map((highlight) => (
                 <div class="flex cursor-default flex-row items-center rounded-md border border-transparent bg-primary p-1.5 font-mono text-xs font-thin text-white transition-colors hover:bg-secondary print:border-secondary print:text-secondary">
