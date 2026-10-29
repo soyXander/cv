@@ -49,7 +49,7 @@ const { title } = Astro.props
 
   @media print {
     html, body {
-      font-size: 12px;
+      font-size: 14px;
       color: #111;
     }
     body {
@@ -66,11 +66,23 @@ const { title } = Astro.props
       margin-top: 1rem !important;
     }
     p, li, dd {
-      line-height: 1.4;
+      font-size: 10pt;
+      line-height: 1.35;
     }
-    .cv-second-page {
-      break-before: page;
-      margin-top: 0 !important;
+    main .font-mono, p {
+      font-family: Arial, sans-serif;
+    }
+    main .text-xs {
+      font-size: 10pt;
+    }
+    .text-secondary {
+      color: #333;
+    }
+    .project-entry footer > div {
+      transition: none;
+      background: transparent;
+      color: #111;
+      border-color: #9ca3af;
     }
     .experience-entry, .project-entry, .education-entry, .skills-group {
       break-inside: avoid;
